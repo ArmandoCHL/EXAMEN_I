@@ -3,8 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BD;
+using WBL;
 
-namespace Examen_I_P6
+namespace WebApp
 {
     public static class ContainerExtensions
     {
@@ -12,6 +14,8 @@ namespace Examen_I_P6
         public static IServiceCollection AddDIContainer(this IServiceCollection services)
         {
 
+            services.AddSingleton<IDataAccess, DataAccess>();
+            services.AddTransient<ITipoInquilinoService, TipoInquilinoService>();
 
             return services;
         }
