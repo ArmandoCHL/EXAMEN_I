@@ -22,3 +22,5 @@
     }
 
     $("#GridView").DataTable();
+
+}
