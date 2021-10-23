@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using WBL;
 using Entity;
 
-namespace WebApp.Pages.Empleado
+namespace Examen_I_P6.Pages.TipoInquilino
 {
     public class GridModel : PageModel
     {

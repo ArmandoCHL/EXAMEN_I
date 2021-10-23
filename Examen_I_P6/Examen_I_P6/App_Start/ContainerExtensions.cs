@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using BD;
 using WBL;
 
-namespace WebApp
+namespace Examen_I_P6
 {
     public static class ContainerExtensions
     {

@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Examen_I_P6;
 
 namespace Examen_I_P6
 {
